@@ -4,21 +4,21 @@ SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)
 ![Alt text] (/refs/SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)_cover.full.jpg?raw=true "cover full")
 
 
-Table of Contents  
-  
-01 INTRODUCTION  
-* 0101 The Course Overview  
+Table of Contents
+
+01 INTRODUCTION
+* 0101 The Course Overview
 * 0102 Getting Docker Inside a Vagrant VM
 * 0103 Containers Versus Virtual Machines
-* 0104 How Docker Works?  
+* 0104 How Docker Works?
 
-02 DOCKER BASICS  
+02 DOCKER BASICS
 
-  0201 Running the Containerized Commands  
-  0202 Managing Your Containers  
-  0203 Committing Changes to a Container Image  
-  0204 Sharing a Container on the Index  
-  0205 Finding and Using Third-party Containers  
+-0201 Running the Containerized Commands
+- 0202 Managing Your Containers
+- 0203 Committing Changes to a Container Image
+-  0204 Sharing a Container on the Index
+-  0205 Finding and Using Third-party Containers  
 03 BUILDING CONTAINERS  
   0301 Writing and Building a Dockerfile  
   0302 Adding Files to Your Container  
