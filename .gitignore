@@ -12,6 +12,7 @@
 
 # exclude from ignoring: directories
 !/refs
+!/doker
 
 # exclude from ignoring: sub-directory or files
 !/docker
