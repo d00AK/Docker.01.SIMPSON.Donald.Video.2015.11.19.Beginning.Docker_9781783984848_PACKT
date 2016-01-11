@@ -52,5 +52,5 @@ SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)
   - 0604 Creating Your Own PaaS with Dokku
   - 0605 Using Ambassador Containers
 
-[cover]: /refs/SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)_cover.full.jpg?raw=true
+[cover]: (/refs/SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)_cover.full.jpg?raw=true)
 
