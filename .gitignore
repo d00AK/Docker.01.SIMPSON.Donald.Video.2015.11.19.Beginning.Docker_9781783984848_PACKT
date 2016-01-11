@@ -13,6 +13,9 @@
 # exclude from ignoring: directories
 !/refs
 
+# ignore big installation package
+/docker/Vagrant.for.Mac/vagrant_1.8.1.dmg
+
 # exclude from ignoring: sub-directory '/dist/rsrc'
 #!/dist
 #/dist/*
