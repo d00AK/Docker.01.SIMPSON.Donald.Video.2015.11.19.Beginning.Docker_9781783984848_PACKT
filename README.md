@@ -1,18 +1,16 @@
 <!-- Docker.01.SIMPSON.Donald.Video.2015.11.19.Beginning.Docker_9781783984848_PACKT -->
 SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)
 
-![Alt text][cover.full]
-[cover.full]: /refs/SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)_cover.full.jpg?raw=true "cover full"
+![Alt text] (/refs/SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)_cover.full.jpg?raw=true "cover full")
 
 
 Table of Contents  
   
 * 01 INTRODUCTION  
-
-  0101 The Course Overview  
-  0102 Getting Docker Inside a Vagrant VM
+  0101. The Course Overview  
+  0102. Getting Docker Inside a Vagrant VM
   0103 Containers Versus Virtual Machines
-  0104 How Docker Works?  
+  0104. How Docker Works?  
 
 02 DOCKER BASICS  
 
