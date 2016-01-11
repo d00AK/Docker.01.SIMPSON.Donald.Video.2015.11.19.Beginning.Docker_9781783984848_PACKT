@@ -6,11 +6,11 @@ SIMPSON.Donald.Video.2015.11.19.Beginning Docker.(9781783984848.PACKT)
 
 Table of Contents  
   
-* 01 INTRODUCTION  
-  0101. The Course Overview  
-  0102. Getting Docker Inside a Vagrant VM
-  0103 Containers Versus Virtual Machines
-  0104. How Docker Works?  
+01 INTRODUCTION  
+* 0101 The Course Overview  
+* 0102 Getting Docker Inside a Vagrant VM
+* 0103 Containers Versus Virtual Machines
+* 0104 How Docker Works?  
 
 02 DOCKER BASICS  
 
