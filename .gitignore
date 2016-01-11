@@ -1,1 +1,19 @@
+# exclude all '.DS_Store' Mac files in all sub-directories
 .DS_Store
+
+# ignore everything
+/*
+
+# exclude from ignoring: '.gitignore'
+!.gitignore
+
+# exclude from ignoring: 'README.md'
+!README.md
+
+# exclude from ignoring: directories
+!/refs
+
+# exclude from ignoring: sub-directory '/dist/rsrc'
+#!/dist
+#/dist/*
+#!/dist/rsrc
