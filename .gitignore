@@ -17,3 +17,4 @@
 !/docker
 /docker/*
 !/docker/Vagrant.for.Mac/link.fix.md
+!/docker/Vagrant.for.Mac/test.md
