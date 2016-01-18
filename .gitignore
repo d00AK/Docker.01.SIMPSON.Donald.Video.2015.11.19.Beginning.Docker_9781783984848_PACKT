@@ -17,3 +17,4 @@
 !/docker
 /docker/*
 !/docker/0102 Vagrant for Mac
+!/docker/0103 Updating Docker
