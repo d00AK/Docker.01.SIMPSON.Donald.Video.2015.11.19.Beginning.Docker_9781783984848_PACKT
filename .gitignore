@@ -16,5 +16,4 @@
 # exclude from ignoring: sub-directory or files
 !/docker
 /docker/*
-!/docker/Vagrant.for.Mac/link.fix.md
-!/docker/Vagrant.for.Mac/test.md
+!/docker/0102 Vagrant for Mac
