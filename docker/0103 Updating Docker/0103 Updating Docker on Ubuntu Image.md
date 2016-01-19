@@ -11,6 +11,7 @@ vagrant@vagrant-ubuntu-trusty-64:~$ docker version
 >Last stable version: 1.9.1, please update docker
 ```
 
+---
 In case of a Docker run error:
 
 ```bash
@@ -22,6 +23,7 @@ docker run -it ubuntu /bin/bash
 ```
 press Ctrl+C now to abort the output.
 
+---
 Update Docker to the latest version
 
 ```bash
@@ -29,7 +31,8 @@ curl -sSL https://get.docker.com/ | sh
 vagrant@vagrant-ubuntu-trusty-64:~$ exit
 ```
 
-Finally, verify Docker version and its run
+---
+Finally, verify the Docker version and its run
 
 ```bash
 vagrant ssh
