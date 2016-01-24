@@ -20,7 +20,8 @@ docker run --help
   ```bash
   docker run -d ubuntu ping google.com
   ```
----
+
+===
 
 ##### docker logs
 
@@ -33,7 +34,8 @@ docker logs --help
   ```bash
   docker logs --tail=5 `docker ps -lq`
   ```
----
+
+===
 
 #### Cleaning up
 ##### docker kill
@@ -47,7 +49,8 @@ docker kill --help
   ```bash
   docker kill `docker ps -lq`
   ```
----
+
+===
 
 ##### docker rm
 
@@ -60,5 +63,6 @@ docker rm --help
   ```bash
   docker rm `docker ps -lq`
   ```
----
+
+
 
