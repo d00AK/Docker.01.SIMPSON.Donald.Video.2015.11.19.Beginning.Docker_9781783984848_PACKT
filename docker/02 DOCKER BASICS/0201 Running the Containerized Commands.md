@@ -1,4 +1,4 @@
-<!-- ### 02 DOCKER BASICS -->
+### 02 DOCKER BASICS
 #### 0201 Running the Containerized Commands
 
 ##### Running a container
@@ -8,7 +8,7 @@
   docker run --help
   >> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
   ```
-  - Foreground commands  
+  - Foreground commands (Run an attached container)  
     ```bash
     docker run --rm ubuntu ping google.com
     ```
@@ -16,7 +16,7 @@
     ```bash
     docker run --rm -i -t ubuntu bash
     ```
-  - Background commands  
+  - Background commands (Run a detached container)  
     ```bash
     docker run -d ubuntu ping google.com
     ```
@@ -30,6 +30,10 @@
     ```bash
     docker logs --tail=5 `docker ps -lq`
     ```
+  - Follow the logs of the _running_ latest container  
+    ```bash
+    docker logs -f `docker ps -lq`
+    ```
 
 ===
 
@@ -40,7 +44,7 @@
   docker kill --help
   >> Usage: docker kill [OPTIONS] CONTAINER [CONTAINER...]
   ```
-  - Kill the latest background process  
+  - Kill the latest _running_ background process  
     ```bash
     docker kill `docker ps -lq`
     ```
@@ -53,4 +57,8 @@
   - Remove the latest container  
     ```bash
     docker rm `docker ps -lq`
+    ```
+  - Remove all containers  
+    ```bash
+    docker ps -aq | xargs rm -f
     ```
