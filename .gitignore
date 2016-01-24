@@ -16,5 +16,5 @@
 # exclude from ignoring: sub-directory or files
 !/docker
 /docker/*
-!/docker/0102 Vagrant for Mac
-!/docker/0103 Updating Docker
+!/docker/01 INTRODUCTION
+!/docker/02 DOCKER BASICS
