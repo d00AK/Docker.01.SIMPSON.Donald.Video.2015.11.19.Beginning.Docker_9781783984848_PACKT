@@ -1,26 +1,25 @@
 <!-- ### 02 DOCKER BASICS -->
 ### 0201 Running the Containerized Commands
 #### Running a container
-##### docker run
 
-```bash
-docker run --help
->> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
-```
-
-- Foreground commands  
+- ##### docker run
   ```bash
-  docker run --rm ubuntu ping google.com
-  ```
-- Interactive commands  
-  ```bash
-  docker run --rm -i -t ubuntu bash
-  ```
-- Background commands  
-  ```bash
-  docker run -d ubuntu ping google.com
+  docker run --help
+  >> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
   ```
 
+  - Foreground commands  
+    ```bash
+    docker run --rm ubuntu ping google.com
+    ```
+  - Interactive commands  
+    ```bash
+    docker run --rm -i -t ubuntu bash
+    ```
+  - Background commands  
+    ```bash
+    docker run -d ubuntu ping google.com
+    ```
 ===
 
 ##### docker logs
@@ -34,7 +33,6 @@ docker logs --help
   ```bash
   docker logs --tail=5 `docker ps -lq`
   ```
-
 ===
 
 #### Cleaning up
