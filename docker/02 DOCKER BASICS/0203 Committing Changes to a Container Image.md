@@ -1,6 +1,8 @@
 ### 02 DOCKER BASICS
 #### 0203 Committing Changes to a Container Image
 
+##### Show downloaded Docker container images
+
 - docker images  
   ```bash
   docker images --help
@@ -72,7 +74,7 @@
 
 ===
 
-##### Make a custom Docker image based on a changed container
+##### Make a custom Docker container image based on a changed container
 
 - docker commit  
   ```bash
