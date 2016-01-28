@@ -51,6 +51,7 @@
   ```
 
   - Kill the latest _running_ background process
+
     ```bash
     docker kill `docker ps -lq`
     ```
