@@ -5,7 +5,8 @@
 
 - docker images  
   ```
-  docker images --help  
+  docker images --help
+
   >> Usage: docker images [OPTIONS] [REPOSITORY[:TAG]]
   ```
   - list all Docker images  
@@ -24,6 +25,7 @@
 - docker run  
   ```
   docker diff --help  
+  
   >> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
   ```
   - start by running a container from the base ubuntu image  
