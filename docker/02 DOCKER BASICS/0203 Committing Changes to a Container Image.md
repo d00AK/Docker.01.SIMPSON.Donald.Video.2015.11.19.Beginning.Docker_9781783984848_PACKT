@@ -3,17 +3,19 @@
 
 ##### Show downloaded Docker container images
 
-- docker images  
-  ```
+- docker images
+  ```bash
   docker images --help
-
   >> Usage: docker images [OPTIONS] [REPOSITORY[:TAG]]
   ```
-  - list all Docker images  
+
+  - list all Docker images
     ```
     docker images
+    docker images -a
     ```
-  - list all intermediate Docker images  
+
+  - list all intermediate Docker images
     ```
     docker images -a
     ```
@@ -25,7 +27,7 @@
 - docker run  
   ```
   docker diff --help  
-  
+
   >> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
   ```
   - start by running a container from the base ubuntu image  
