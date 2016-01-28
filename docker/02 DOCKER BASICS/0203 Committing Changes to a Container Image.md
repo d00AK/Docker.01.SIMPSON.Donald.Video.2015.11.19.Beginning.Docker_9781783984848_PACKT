@@ -69,7 +69,7 @@
     ```
     docker diff `docker ps -lq`
     ```
-    or
+    or  
     ```
     docker diff `docker ps -lq` | less
     ```
@@ -97,7 +97,7 @@
     ```
   - in case of a connection problem clear the known hosts entry and reconnect  
     ```
-    ssh-keygen -f "/home/vagrant/.ssh/known_hosts" -R [localhost]:2222
+    ssh-keygen -f "/home/vagrant/.ssh/known_hosts" -R [localhost]:2222  
     ssh root@localhost -p 2222
     ```
   - exit when you're done  

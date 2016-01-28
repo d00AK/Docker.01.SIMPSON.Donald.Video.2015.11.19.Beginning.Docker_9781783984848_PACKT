@@ -61,6 +61,8 @@
   - Remove all containers  
     ```
     docker ps -aq | xargs rm -f
-    or
+    ```
+    or  
+    ```
     docker rm $(docker ps -a -q)
     ```
