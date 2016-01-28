@@ -3,35 +3,40 @@
 
 ##### Running a container
 
-- docker run  
-  ```
-  docker run --help  
+- docker run
+  ```bash
+  docker run --help
   >> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
   ```
-  - Foreground commands (Run an attached container)  
-    ```
+
+  - Foreground commands (Run an attached container)
+    ```bash
     docker run --rm ubuntu ping google.com
     ```
-  - Interactive commands  
-    ```
+
+  - Interactive commands
+    ```bash
     docker run --rm -i -t ubuntu bash
     ```
-  - Background commands (Run a detached container)  
-    ```
+
+  - Background commands (Run a detached container)
+    ```bash
     docker run -d ubuntu ping google.com
     ```
 
-- docker logs  
-  ```
-  docker logs --help  
+- docker logs
+  ```bash
+  docker logs --help
   >> Usage: docker logs [OPTIONS] CONTAINER
   ```
-  - Logs of the latest container  
-    ```
+
+  - Logs of the latest container
+    ```bash
     docker logs --tail=5 `docker ps -lq`
     ```
-  - Follow the logs of the _running_ latest container  
-    ```
+
+  - Follow the logs of the _running_ latest container
+    ```bash
     docker logs -f `docker ps -lq`
     ```
 
@@ -39,30 +44,33 @@
 
 ##### Cleaning up
 
-- docker kill  
-  ```
-  docker kill --help  
+- docker kill
+  ```bash
+  docker kill --help
   >> Usage: docker kill [OPTIONS] CONTAINER [CONTAINER...]
   ```
-  - Kill the latest _running_ background process  
-    ```
+
+  - Kill the latest _running_ background process
+    ```bash
     docker kill `docker ps -lq`
     ```
 
-- docker rm  
-  ```
-  docker rm --help  
+- docker rm
+  ```bash
+  docker rm --help
   >> Usage: docker rm [OPTIONS] CONTAINER [CONTAINER...]
   ```
-  - Remove the latest container  
-    ```
+
+  - Remove the latest container
+    ```bash
     docker rm `docker ps -lq`
     ```
-  - Remove all containers  
-    ```
+
+  - Remove all containers
+    ```bash
     docker ps -aq | xargs rm -f
-    ```  
-    or  
     ```
+    or
+    ```bash
     docker rm $(docker ps -a -q)
     ```

@@ -121,3 +121,8 @@
     ```bash
     exit
     ```
+
+  - clean up the container if needed
+    ```bash
+    docker rm -f `docker ps -lq`
+    ```
