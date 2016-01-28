@@ -83,7 +83,7 @@
 - docker commit  
   ```
   docker commit --help  
-  >> Usage: docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+    >> Usage: docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
   ```
   - persist the container changes with docker commmit into a new [USERNAME/IMAGENAME] named image  
     ```
