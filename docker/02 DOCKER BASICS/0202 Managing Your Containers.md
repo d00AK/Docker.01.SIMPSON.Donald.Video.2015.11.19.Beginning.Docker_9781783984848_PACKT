@@ -6,7 +6,7 @@
 
 - docker ps  
   ```
-  docker ps --help
+  docker ps --help  
   >> Usage: docker ps [OPTIONS]
   ```
   - See _running_ containers  
@@ -36,7 +36,7 @@
 
 - docker inspect  
   ```
-  docker inspect --help
+  docker inspect --help  
   >> Usage: docker inspect [OPTIONS] CONTAINER|IMAGE [CONTAINER|IMAGE...]
   ```
   - Inspect the latest container  
@@ -50,7 +50,7 @@
 
 - docker stop  
   ```
-  docker stop --help
+  docker stop --help  
   >> Usage: docker stop [OPTIONS] CONTAINER [CONTAINER...]
   ```
   - Stop and kill (after __timeout__) the latest _running_ process  

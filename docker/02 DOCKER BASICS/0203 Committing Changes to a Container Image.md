@@ -5,7 +5,7 @@
 
 - docker images  
   ```
-  docker images --help
+  docker images --help  
   >> Usage: docker images [OPTIONS] [REPOSITORY[:TAG]]
   ```
   - list all Docker images  
@@ -23,7 +23,7 @@
 
 - docker run  
   ```
-  docker diff --help
+  docker diff --help  
   >> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
   ```
   - start by running a container from the base ubuntu image  
@@ -62,13 +62,13 @@
 
 - docker diff  
   ```
-  docker diff --help
+  docker diff --help  
   >> Usage: docker diff [OPTIONS] CONTAINER
   ```
   - use docker diff to see the changes we've made upon the base image container  
     ```
     docker diff `docker ps -lq`
-    ```
+    ```  
     or  
     ```
     docker diff `docker ps -lq` | less
@@ -80,7 +80,7 @@
 
 - docker commit  
   ```
-  docker commit --help
+  docker commit --help  
   >> Usage: docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
   ```
   - persist the container changes with docker commmit into a new [USERNAME/IMAGENAME] named image  

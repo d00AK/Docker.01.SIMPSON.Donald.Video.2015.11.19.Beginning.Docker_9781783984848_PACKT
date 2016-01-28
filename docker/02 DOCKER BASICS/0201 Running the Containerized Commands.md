@@ -5,7 +5,7 @@
 
 - docker run  
   ```
-  docker run --help
+  docker run --help  
   >> Usage: docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
   ```
   - Foreground commands (Run an attached container)  
@@ -23,7 +23,7 @@
 
 - docker logs  
   ```
-  docker logs --help
+  docker logs --help  
   >> Usage: docker logs [OPTIONS] CONTAINER
   ```
   - Logs of the latest container  
@@ -41,7 +41,7 @@
 
 - docker kill  
   ```
-  docker kill --help
+  docker kill --help  
   >> Usage: docker kill [OPTIONS] CONTAINER [CONTAINER...]
   ```
   - Kill the latest _running_ background process  
@@ -51,7 +51,7 @@
 
 - docker rm  
   ```
-  docker rm --help
+  docker rm --help  
   >> Usage: docker rm [OPTIONS] CONTAINER [CONTAINER...]
   ```
   - Remove the latest container  
@@ -61,7 +61,7 @@
   - Remove all containers  
     ```
     docker ps -aq | xargs rm -f
-    ```
+    ```  
     or  
     ```
     docker rm $(docker ps -a -q)
